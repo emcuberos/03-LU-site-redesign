@@ -1,15 +1,44 @@
 /* Base Styles */
 body {
-  color: royalblue;
+  color: rgb(116, 135, 192);
   text-align: center;
-  background-color: bisque;
+  background-color: beige;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 
 /* Typography */
 
 /* Links & Accents */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  color: white;
+}
 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: rgb(116, 135, 192);
+  padding: 30px 0;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+nav a {
+  color: rgb(253, 253, 253);
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
 /* Images */
 
 /* Hero Section */
