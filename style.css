@@ -37,7 +37,7 @@ nav a {
 }
 
 nav a:hover {
-  color: white;
+  color: rgb(87, 101, 220);
 }
 /* Images */
 
@@ -49,6 +49,13 @@ nav a:hover {
   border: 4px solid rgb(116, 135, 192);
   border-radius: 16px;
 }
+
+main img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
 /* Hero Section */
 
 .header-content h1 {
@@ -67,6 +74,10 @@ h2,
 h3 {
   font-family: "Slabo 13px", cursive;
   font-weight: normal;
+}
+
+main-section {
+  padding: 60px 20px;
 }
 
 /* About Section */
@@ -91,6 +102,32 @@ h3 {
 }
 
 /* Specials Section */
+
+.specials-list,
+.picks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.special-offer,
+.pick {
+  background-color: rgb(116, 135, 192);
+  color: white;
+  padding: 16px;
+  border-radius: 12px;
+  text-align: center;
+  width: 250px;
+}
+
+.price-was {
+  text-decoration: line-through;
+  color: #ffcccc;
+  font-size: 18px;
+}
 
 /* Visit Us Section */
 
