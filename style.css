@@ -169,7 +169,7 @@ main section h2 {
 
 .price-was {
   text-decoration: line-through;
-  color: red;
+  color: rgb(155, 25, 25);
   font-size: 18px;
   margin-top: 4px;
 }
