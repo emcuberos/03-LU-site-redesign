@@ -84,10 +84,6 @@ main-section {
 
 .about-us {
   background-color: rgb(116, 135, 192);
-  max-width: 1000px;
-  margin: 40px auto;
-  padding: 32px;
-  border-radius: 12px;
   color: white;
 }
 
@@ -103,6 +99,11 @@ main-section {
 
 /* Specials Section */
 
+.specials {
+  background-color: rgb(87, 101, 220);
+  color: white;
+}
+
 .specials-list,
 .picks {
   display: flex;
@@ -111,16 +112,6 @@ main-section {
   gap: 30px;
   margin: 0 auto;
   max-width: 1000px;
-}
-
-.special-offer,
-.pick {
-  background-color: rgb(116, 135, 192);
-  color: white;
-  padding: 16px;
-  border-radius: 12px;
-  text-align: center;
-  width: 250px;
 }
 
 .price-was {
